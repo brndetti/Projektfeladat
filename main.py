@@ -16,7 +16,7 @@ class ReceptProgramBB:
         self.root.resizable(False, False)
 
         ttk.Label(
-            root, text="Receptgyűjtmény", font=("Arial", 17, "bold")
+            root, text="Receptgyűjtemény", font=("Arial", 17, "bold")
         ).grid(row=0, column=0, columnspan=4, pady=15)
 
         ttk.Label(root, text="Recept neve:").grid(

@@ -32,7 +32,7 @@ A már mentett receptek visszakereshetők, módosíthatók, illetve törölhető
 - `kapcsolat.cursor` - kurzor létrehozása,
 - `kurzor.execute` - lekérdezés indítása,
 - `kurzor.fetchall` - a lekérdezés eredményeinek lekérése.
-- `with` blokk - az adabázis-kapcsolat `with` blokkban működik, mely siker esetén menti, hiba esetén visszavonja a tranzakciót.
+- `with` blokk - az adatbázis-kapcsolat `with` blokkban működik, mely siker esetén menti, hiba esetén visszavonja a tranzakciót.
 
 **Saját modul: `adatbazis_bb`**
 - `ReceptAdatbazisBB` - saját adatbáziskezelő osztály,
@@ -49,7 +49,7 @@ A már mentett receptek visszakereshetők, módosíthatók, illetve törölhető
 - `tabla_letrehozasa()` - adatbázistábla elkészítése,
 - `receptek_listazasa()` - keresés és listázás,
 - `recept_mentese()` - új recept mentése,
-- `recept_mododsitasa` - meglpvő recept módosítása,
+- `recept_modositasa` - meglévő recept módosítása,
 - `recept_torlese()` - recept törlése,
 - `mentes()`, `modositas()`, `torles()` - gombok műveletei,
 - `lista_frissitese()`  - a táblazat frissítése,
@@ -65,7 +65,7 @@ A táblázat `<<TreeviewSelect>>` eseménye betölti a kiválasztott receptet.
 
 1. Python 3 telepítése szükséges, Tkinter támogatással. 
 2. A `main.py` és az `adatbazis_bb.py` legyen ugyanabban a mappában.
-3. A mappában futtassuk: `main.py`
+3. A mappában futtassuk: `python main.py`
 4. A program az első indításor létrehozza a `receptek.db` fájlt.
 
 Külső program telepítésére, illetve internetkapcsolatra a program futásához nincs szükség.
